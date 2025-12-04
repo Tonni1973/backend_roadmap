@@ -1,4 +1,4 @@
-public class Boolean {
+public class BooleanApp {
     public static void main(String[] args) {
         boolean benar = true;
         boolean salah = false;
