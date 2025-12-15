@@ -1,4 +1,4 @@
-class Manager{
+class Manager_{
     String name;
 
     void sayHello(String name){
@@ -6,7 +6,7 @@ class Manager{
     }
 }
 
-class VicePresident extends Manager {
+class VicePresident_ extends Manager_{
     void sayHello(String name){
         System.out.println("Hello " + name + ", My Name is VicePresident "+ this.name);
     }
