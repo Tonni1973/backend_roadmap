@@ -1,9 +1,7 @@
-public class Manager {
-
-    String name;
+public class Manager extends Employee {
 
 
     Manager(String name){
-        this.name = name;
+        super(name);
     }
 }

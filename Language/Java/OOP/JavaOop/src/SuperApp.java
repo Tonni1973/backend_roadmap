@@ -1,6 +1,6 @@
 public class SuperApp {
     public static void main(String[] args) {
-        Manager manager = new Manager("Kiko");
+        Manager manager = new Manager("Tonni");
 
         System.out.println(manager.name);
 
