@@ -15,6 +15,7 @@ public class EqualsApp {
         Product a = new Product();
         Product b = new Product();
 
+        a.name = "Sabun Abc";
         a.price = 2000;
 
         b.name = "Sabun Abc";
