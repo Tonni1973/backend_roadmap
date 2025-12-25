@@ -1,6 +1,6 @@
 package toni.InnerClass;
 
-public class Company {
+public class Company extends BigCompany{
     private String name;
 
     public String getName(){
@@ -24,6 +24,10 @@ public class Company {
 
         public String getCompany(){
             return Company.this.getName();
+        }
+
+        public String getBigCompany(){
+            return Company.super.getName();
         }
 
 

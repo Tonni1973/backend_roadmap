@@ -12,5 +12,9 @@ public class NestedApp {
         System.out.println(employee.getName());
 
         System.out.println(employee.getCompany());
+        // mangambil data dari parent outerclassnya
+        System.out.println(employee.getBigCompany());
+
+
     }
 }
