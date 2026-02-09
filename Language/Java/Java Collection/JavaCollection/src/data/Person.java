@@ -1,6 +1,7 @@
 package data;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Person {
@@ -18,7 +19,8 @@ public class Person {
         hobbies.add(hobby);
     }
 
-    public List<String> getName() {
-        return name;
+    public List<String> getHobbies() {
+        // ubah jadi immutable list
+        return Collections.unmodifiableList(hobbies);
     }
 }
