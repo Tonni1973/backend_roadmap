@@ -23,4 +23,8 @@ public class Person {
         // ubah jadi immutable list
         return Collections.unmodifiableList(hobbies);
     }
+
+    public String getName(){
+        return name;
+    }
 }
