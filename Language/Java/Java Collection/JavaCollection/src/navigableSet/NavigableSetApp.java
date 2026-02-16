@@ -1,9 +1,7 @@
 package navigableSet;
 
 
-import java.util.NavigableSet;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 public class NavigableSetApp {
     public static void main(String[] args) {
@@ -13,6 +11,14 @@ public class NavigableSetApp {
 
         NavigableSet<String> namesDesc = names.descendingSet();
         NavigableSet<String> tonni = names.headSet("Tonni", true);
+
+        for(var name : names){
+            System.out.println(name);
+        }
+
+        NavigableSet<String> nami = Collections.unmodifiableNavigableSet(names);
+
+//        nami.add("Tonni Ramdani2"); error
 
         for(var name : names){
             System.out.println(name);
