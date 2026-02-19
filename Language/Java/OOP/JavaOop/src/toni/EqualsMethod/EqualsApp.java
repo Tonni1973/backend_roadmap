@@ -22,5 +22,7 @@ public class EqualsApp {
         b.price = 2000;
 
         System.out.println(a.equals(b));
+
+        System.out.println(a.equals(a));
     }
 }
