@@ -16,4 +16,9 @@ public class Product {
         return name != null ? name.equals(product.name) : product.name == null;
 
     }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, price);
+    }
 }
