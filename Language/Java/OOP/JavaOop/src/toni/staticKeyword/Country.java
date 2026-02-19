@@ -20,6 +20,7 @@ public class Country {
 
         public String getNameCountry(){
 //            return Country.this.getName();
+            // ini lebih ke kebalikan sih, kalau static di inner class justru malah jadi tidak bisa akses
             return "tidak boleh karena static";
         }
     }

@@ -5,5 +5,6 @@ public class Application {
 
     static{
         PROCESSOR = Runtime.getRuntime().availableProcessors();
+        System.out.println("langsung dipanggil ketika class diinisialisasi");
     }
 }
