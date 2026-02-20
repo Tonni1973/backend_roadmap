@@ -4,15 +4,16 @@ import toni.RecordClass.LoginRequest;
 
 public class ValidationUtil {
 
-    public static void validate(LoginRequest loginRequest) throws ValidationException{
-        if (loginRequest.username() == null){
-            throw new ValidationException("username tidak boleh null");
-        } else if (loginRequest.username().isBlank()){
-            throw  new ValidationException("username tidak boleh kosong");
-        } else if (loginRequest.password() == null){
-            throw new ValidationException("password tidak boleh null");
+    public static void validate(LoginRequest loginRequest) throws ValidationException {
+        if(loginRequest.username() == null){
+            throw new ValidationException("Username tidak boleh nulll");
+        } else if (loginRequest.username().isBlank()) {
+            throw new ValidationException(("Username tidak boleh kosong"));
+        } else if (loginRequest.password() == null) {
+            throw new ValidationException("Password tidak boleh null");
         } else if (loginRequest.password().isBlank()) {
-            throw new ValidationException("password tidak boleh kosong");
+            throw new ValidationException("Password tidak boleh kosong");
         }
     }
+
 }

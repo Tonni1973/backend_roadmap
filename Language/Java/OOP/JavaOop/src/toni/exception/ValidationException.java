@@ -7,7 +7,8 @@ public class ValidationException extends Throwable{
         this.message = message;
     }
 
-    public String getMessage() {
+    public String getMessage(){
         return message;
     }
+
 }
