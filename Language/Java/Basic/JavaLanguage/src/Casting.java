@@ -15,7 +15,11 @@ public class Casting {
         short iniShort2 = (short) iniInt2;
         byte iniByte2 = (byte) iniShort2;
 
+        long longNumber = 100l;
+        int intNumber = (int) longNumber;
+
         System.out.println(iniByte2);
+        System.out.println(longNumber);
 
     }
 }
