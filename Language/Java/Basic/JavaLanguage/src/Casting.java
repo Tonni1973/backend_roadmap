@@ -18,6 +18,9 @@ public class Casting {
         long longNumber = 100l;
         int intNumber = (int) longNumber;
 
+        byte byteNumber = 9;
+        double doubleNumber = (double) byteNumber;
+
         System.out.println(iniByte2);
         System.out.println(longNumber);
 
