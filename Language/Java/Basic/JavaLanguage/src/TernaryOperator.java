@@ -7,5 +7,12 @@ public class TernaryOperator {
         String ucapan = nilai >= 75 ? "Selamat Anda Lulus" : "Silahkan coba lagi";
 
         System.out.println(ucapan);
+
+
+        String name = "Null";
+
+        String isNull = name == null ? "Yes that's null" : "No  its'n null, the name is "+ name;
+        System.out.println(isNull);
+
     }
 }

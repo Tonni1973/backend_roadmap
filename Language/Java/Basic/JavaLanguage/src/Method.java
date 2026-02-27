@@ -3,6 +3,8 @@ public class Method {
         sayHello("Nuna");
         int hasil = sum(19, 2);
         System.out.println("Hasil penjumlahan: "+ hasil);
+
+        Method.sayHello();
     }
 
     static void sayHello(String name){
@@ -11,6 +13,10 @@ public class Method {
 
     static int sum(int a, int b){
         return a + b;
+    }
+
+    static void sayHello(){
+        System.out.println("Hello World");
     }
 
 

@@ -3,6 +3,7 @@ public class MethodOverloading {
         sayHello();
         sayHello("Nuna");
         sayHello("Nuna", "Azzahra");
+        sayHello("Bunga", "Nazwa", "Azzahra");
     }
 
     static void sayHello(){
@@ -15,5 +16,9 @@ public class MethodOverloading {
 
     static void sayHello(String firstName, String lastName){
         System.out.println("Hello " + firstName + " " + lastName);
+    }
+
+    static void sayHello(String firstName, String middleName, String lastName){
+        System.out.println("Hello "+ firstName + " " + middleName + " " + lastName);
     }
 }

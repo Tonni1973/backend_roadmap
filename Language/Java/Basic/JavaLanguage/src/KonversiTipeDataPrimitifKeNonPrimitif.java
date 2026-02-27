@@ -13,5 +13,14 @@ public class KonversiTipeDataPrimitifKeNonPrimitif {
 
         short shortAge = umur.shortValue();
         byte byteAge = umur.byteValue();
+
+        int intNumber = 100;
+
+        Integer intNumberNonPrimitif = intNumber;
+
+
+        byte byteNumber = intNumberNonPrimitif.byteValue();
+
+        System.out.println(byteNumber);
     }
 }

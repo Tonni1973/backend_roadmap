@@ -45,5 +45,48 @@ public class SwitchStatement {
         };
 
         System.out.println(ucapan);
+
+
+        char nilaiProksi = 'A';
+
+        switch (nilaiProksi){
+            case 'A':
+                System.out.println("Nilai Memuaskan");
+                break;
+            case 'B':
+                System.out.println("Nilai Cukup Memuaskan");
+                break;
+            case 'C':
+                System.out.println("Nilai Cukup");
+                break;
+            default:
+                System.out.println("Nilai Tidak Diketahui");
+        }
+
+//      switch lambda -> gunanya adalah tidak perlu menggunakan lagi break
+
+        switch (nilaiProksi){
+            case 'A' -> System.out.println("Wow Anda lulus");
+            case 'B', 'C' -> System.out.println("Anda lulus" );
+            case 'D' -> System.out.println("Anda Tidak Lulus");
+            default -> {
+                System.out.println("Anda Mungkin Salah jurusan");
+            }
+        }
+
+        // yield
+
+        String ucapanSelamat = switch (nilaiProksi){
+            case 'A':
+                yield "Wow";
+            case 'B':
+                yield "lulus";
+            case 'C', 'D':
+                yield "lulus, kurang";
+            default:
+                yield "Salah jurusan";
+        };
+
+        System.out.println(ucapanSelamat);
     }
 }
