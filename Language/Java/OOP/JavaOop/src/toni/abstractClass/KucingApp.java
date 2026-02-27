@@ -1,6 +1,6 @@
 package toni.abstractClass;
 
-public class KucingAPp {
+public class KucingApp {
     public static void main(String[] args) {
         Hewan kucing = new Kucing();
 
@@ -9,5 +9,7 @@ public class KucingAPp {
         kucing.suara();
 
         kucing.bernafas();
+
+        kucing.run();
     }
 }

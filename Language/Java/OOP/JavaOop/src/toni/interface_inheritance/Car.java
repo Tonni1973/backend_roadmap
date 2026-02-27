@@ -7,4 +7,8 @@ public interface Car extends HasBrand {
     default boolean isBig(){
         return false;
     };
+
+    default boolean isSmall(){
+        return true;
+    }
 }

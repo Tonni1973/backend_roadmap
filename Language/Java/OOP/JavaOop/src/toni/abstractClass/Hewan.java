@@ -11,4 +11,6 @@ public abstract class Hewan {
     void bernafas(){
         System.out.println("Bernafass....");
     }
+
+    abstract void run();
 }

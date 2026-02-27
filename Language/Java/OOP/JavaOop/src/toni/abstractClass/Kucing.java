@@ -6,4 +6,9 @@ public class Kucing extends Hewan{
     void suara() {
         System.out.println("Meow");
     }
+
+    @Override
+    void run() {
+        System.out.println("Runnnn!!!!!");
+    }
 }
