@@ -16,4 +16,14 @@ public class ValidationUtil {
         }
     }
 
+    public static void validatePassword(String password) throws ValidatePassException{
+        if(password == null){
+            throw new ValidatePassException("password tidak boleh null, lol");
+        } else if (password.isBlank()){
+            throw new ValidatePassException("passwordk tidak boleh kosong, lol");
+        } else if(password.length() <= 8){
+            throw new ValidatePassException("panjang password harus lebih dari 8 lol");
+        }
+    }
+
 }

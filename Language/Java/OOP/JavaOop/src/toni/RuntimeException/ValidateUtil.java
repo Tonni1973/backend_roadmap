@@ -4,6 +4,9 @@ import toni.RecordClass.LoginRequest;
 
 public class ValidateUtil {
 
+
+//    perbedaannya di sini, di method runtime exception itu tidak membutuhkan kata kunci throws
+
     public static void validateRuntime(LoginRequest loginRequest) {
         if (loginRequest.username() == null) {
             throw new BlankException("username tidak boleh null");

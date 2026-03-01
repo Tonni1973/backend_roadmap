@@ -19,5 +19,18 @@ public class ValidationApp {
 
         System.out.println("hello");
 
+
+        String password = "";
+
+        try {
+            ValidationUtil.validatePassword(password);
+        } catch (ValidatePassException error){
+            System.out.println(error.getMessage());
+        } finally {
+            System.out.println("error tidak error dipanggil");
+        }
+
+        System.out.println("berjalan dengan baik");
+
     }
 }
