@@ -8,5 +8,12 @@ public class NumberClassApp {
         Byte b = a.byteValue();
 
         System.out.println(b);
+
+        Integer c = 9;
+
+        Byte d = c.byteValue();
+
+        System.out.println(d);
+
     }
 }

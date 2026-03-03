@@ -9,5 +9,13 @@ public class StringToNumber {
 
         // value of untuk tipe data non primitif
         Integer numberInteger = Integer.valueOf(number);
+
+
+        Integer numberWan = 1;
+
+        String numberString = Integer.toString(numberWan);
+
+        System.out.println(numberString instanceof String);
+        System.out.println(numberString);
     }
 }

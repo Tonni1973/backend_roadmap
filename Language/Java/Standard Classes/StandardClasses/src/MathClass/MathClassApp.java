@@ -8,5 +8,9 @@ public class MathClassApp {
         System.out.println(Math.max(a, b));
         System.out.println(Math.min(a, b));
 
+        Double phi = 3.14;
+
+        System.out.println(Math.cos(phi));
+
     }
 }

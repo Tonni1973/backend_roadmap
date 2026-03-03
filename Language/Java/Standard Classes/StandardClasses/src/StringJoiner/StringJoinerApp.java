@@ -17,5 +17,20 @@ public class StringJoinerApp {
         }
 
         System.out.println(joiner.toString());
+
+        StringJoiner joiner1 = new StringJoiner(", ", "{ ", " }");
+
+        String[] nama_lengkap = new String[3];
+        nama_lengkap[0] = "Tonni";
+        nama_lengkap[1] = "Ramdani";
+        nama_lengkap[2] = "Mubaroq";
+
+        for (var nama : nama_lengkap) {
+            joiner1.add(nama);
+        }
+
+        System.out.println(joiner1);
+
+
     }
 }
