@@ -11,5 +11,12 @@ public class StringApp {
 
         String[] split = name.split("N");
         System.out.println(split[1]);
+
+
+        String nama = new String("Tona");
+        System.out.println(nama);
+
+        String[] split2 = nama.split("T");
+        System.out.println(split2[1]);
     }
 }
