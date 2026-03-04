@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class RegexApp {
     public static void main(String[] args) {
-        String name = "Tonani Ramdani Mubaroq Programmer Handal a";
+        String name = "Tonni Ramdani Mubaroq Programmer Handal a";
 
         Pattern pattern = Pattern.compile("[a-zA-Z]*[a][a-zA-Z]*");
 

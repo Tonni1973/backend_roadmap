@@ -10,5 +10,8 @@ public class ObjectsClassApp {
         boolean flag = Objects.equals(product, product2);
 
         System.out.println(flag);
+
+        String product3 = Objects.toString(product);
+        System.out.println(product3);
     }
 }
