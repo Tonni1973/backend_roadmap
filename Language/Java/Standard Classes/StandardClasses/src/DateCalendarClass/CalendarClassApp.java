@@ -19,5 +19,10 @@ public class CalendarClassApp {
         System.out.println(date);
         long millisecond = date.getTime();
 
+
+        System.out.println(calendar.getTime());
+
+        System.out.println(calendar.getTimeInMillis());
+
     }
 }

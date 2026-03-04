@@ -7,5 +7,7 @@ public class RuntimeClassApp {
         Runtime runtime = Runtime.getRuntime();
 
         System.out.println(runtime.freeMemory());
+        System.out.println(runtime.totalMemory());
+        System.out.println(runtime.availableProcessors());
     }
 }

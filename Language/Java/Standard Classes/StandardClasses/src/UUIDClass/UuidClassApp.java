@@ -14,5 +14,10 @@ public class UuidClassApp {
         }
 
         System.out.println(ids.length);
+
+        for (int i = 0; i < 100; i++){
+            UUID uuid = UUID.randomUUID();
+            System.out.println(uuid);
+        }
     }
 }
