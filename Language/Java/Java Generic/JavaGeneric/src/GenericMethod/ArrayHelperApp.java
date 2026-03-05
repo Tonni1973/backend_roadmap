@@ -8,6 +8,7 @@ public class ArrayHelperApp {
         System.out.println(ArrayHelper.<String>count(names));
         System.out.println(ArrayHelper.<Integer>count(values));
 
+        // gk wajib untuk memasukan generic parameternya
         System.out.println(ArrayHelper.count(names));
         System.out.println(ArrayHelper.count(values));
     }

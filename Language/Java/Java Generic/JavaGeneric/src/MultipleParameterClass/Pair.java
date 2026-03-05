@@ -9,6 +9,13 @@ public class Pair<T, U> {
         this.second = second;
     }
 
+    public void setFirst(T first) {
+        this.first = first;
+    }
+
+    public void setSecond(U second) {
+        this.second = second;
+    }
 
     public T getFirst(){
         return first;
