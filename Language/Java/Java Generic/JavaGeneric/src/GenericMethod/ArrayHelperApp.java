@@ -11,5 +11,7 @@ public class ArrayHelperApp {
         // gk wajib untuk memasukan generic parameternya
         System.out.println(ArrayHelper.count(names));
         System.out.println(ArrayHelper.count(values));
+
+        System.out.println(ArrayHelper.getFirst(names));
     }
 }
